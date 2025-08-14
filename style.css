@@ -1,0 +1,84 @@
+body{
+    background-image: url("../assets/background.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    font-family: "m-plus-1-code";
+    margin-top: 150px;
+}
+
+#title{
+    margin-top: 50px;
+    line-height: 30px;
+    font-size: 50px;
+
+}
+
+.titles{
+    background-color: rgb(255, 255, 255);
+    width: 85%;
+    margin: auto;
+    border: 2px solid black;
+    border-radius: 10px 10px 0px 0px;
+    align-content: center;
+    text-align: center;
+}
+
+#subtitle{
+    font-size: 18px;
+}
+
+#calendarContainer{
+    display: flex;
+}
+
+#calendarDiv{
+    background-color: rgb(255, 255, 255);
+    border-radius: 0px 0px 20px 20px;
+    margin: auto;
+    align-content: center;
+    text-align: center;
+    width: 85%;
+}
+
+#calendarHeading {
+    display: flex;
+    justify-content: space-between;
+    border-radius: 0px 0px 0px 0px;
+    border: 2px solid black;
+    padding-left: 2px;
+    padding-right: 2px;
+    font-size: 20px;
+    background-color: pink;
+    line-height: 0px;
+}
+
+#calendarContent {
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 0px 0px 20px 20px;
+}
+
+.days{
+    display: flex;
+    justify-content: center;
+}
+
+.day {
+    width: 30px;
+    margin: 3px;
+    padding: 10px;
+    font-size: 15px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+#resetButton{
+    margin: 10px;
+    margin-top: 45px;
+    padding: 5px;
+    border-radius: 10px;
+    border: 2px solid black;
+    font-size: 15px;
+}
